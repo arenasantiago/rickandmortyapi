@@ -8,5 +8,6 @@ export async function fetchCharacters(page = 1){
         return data;
     } catch (error) {
         console.error('Error en fetch de characters', error)
+        throw error;
     }
 }
