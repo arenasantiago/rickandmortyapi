@@ -28,6 +28,10 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         flexWrap: 'wrap',
         gap: 15
+    },
+    vive: {
+        fontSize: 18,
+        marginBottom: 5
     }
 })
 

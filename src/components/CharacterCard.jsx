@@ -8,6 +8,7 @@ export default function CharacterCard ( { character }) {
             <Image source = {{uri: character.image}} style={styles.image} />
             <Text style={styles.name}> {character.name}</Text>
             <Text style={styles.info}> {character.status}</Text>
+            <Text style={styles.vive} >{character.location.name}</Text>
         </View>
     )
 }
